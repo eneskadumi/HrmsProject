@@ -4,11 +4,12 @@ import java.util.List;
 
 import kadumi.hrms.core.utilities.results.DataResult;
 import kadumi.hrms.core.utilities.results.Result;
-import kadumi.hrms.entities.concretes.JobTitle;
+import kadumi.hrms.entities.concretes.Employer;
 
-public interface JobTitleService {
+public interface EmployerService {
 	
-	DataResult<List<JobTitle>> getAll();
-	Result add(JobTitle jobTitle);
+
+	DataResult<List<Employer>> getAll();
+	Result add(Employer employer);
 
 }
