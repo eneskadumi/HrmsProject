@@ -35,7 +35,7 @@ public class Candidate extends User{
 	
 	
 	public Candidate() {
-		
+		 
 	}
 
 
